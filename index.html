@@ -78,13 +78,12 @@
             border-radius: 5px;
             border: 1px solid #c8e1ff;
         }
-        .answers-link {
-            background-color: #f1f1f1;
-            padding: 10px 15px;
-            margin-top: 30px;
-            display: inline-block;
-            border-radius: 4px;
-            font-weight: bold;
+        .caption {
+            font-style: italic;
+            color: #555;
+            margin-top: -15px;
+            margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
@@ -96,7 +95,6 @@
             <a href="#key-findings">Key Findings</a>
             <a href="#methodology">Methodology</a>
             <a href="#references">References</a>
-            <a href="answers.html">Assignment Answers</a>
         </nav>
     </header>
 
@@ -131,6 +129,7 @@
             <p>The time series analysis reveals interesting patterns in crime rates over the years. As shown in the figure below, we can observe both daily and seasonal variations in crime incidents. The red dashed line represents the overall trend in crime rates.</p>
             
             <img src="assets/images/time_series.png" alt="Daily Crime Incidents in San Francisco">
+            <p class="caption">Figure 1: Time series showing daily crime incidents in San Francisco from 2003-2024, with trend line (red dashed) revealing long-term patterns.</p>
             
             <p>Key observations from the time series:</p>
             <ul>
@@ -152,6 +151,7 @@
             <p>The interactive map below shows the spatial distribution of crimes across San Francisco. This visualization helps identify areas with higher crime rates and potential hotspots.</p>
             
             <iframe src="./assets/images/crime_map.html" height="500px" frameborder="0"></iframe>
+            <p class="caption">Figure 2: Interactive map showing the geographic distribution of crime incidents across San Francisco neighborhoods. Red dots represent individual crime reports.</p>
             <p><em>If the map doesn't load, <a href="./assets/images/crime_map.html" target="_blank">click here to view it in a new tab</a>.</em></p>
             
             <p>Key observations from the map:</p>
@@ -174,6 +174,7 @@
             <p>The interactive visualization below allows you to explore the distribution of different crime categories. Hover over the bars to see detailed information about each category.</p>
             
             <iframe src="./assets/images/interactive_viz.html" height="500px" frameborder="0"></iframe>
+            <p class="caption">Figure 3: Interactive bar chart showing the distribution of the top 10 crime categories in San Francisco. Hover over bars for exact counts.</p>
             <p><em>If the visualization doesn't load, <a href="./assets/images/interactive_viz.html" target="_blank">click here to view it in a new tab</a>.</em></p>
             
             <p>Key observations from the category analysis:</p>
@@ -240,8 +241,6 @@
                 <li><a href="https://www.sfchronicle.com/projects/san-francisco-crime/">San Francisco Crime Data Analysis 2020-2023</a>, SF Chronicle</li>
             </ol>
         </section>
-        
-        <a href="answers.html" class="answers-link">View Assignment Part 1 Answers</a>
     </main>
 
     <footer>
