@@ -5,6 +5,7 @@ title: SF Crime Data Analysis
 
 # Understanding Crime Patterns in San Francisco: A Data-Driven Story
 
+<a id="introduction"></a>
 ## Introduction
 This analysis explores patterns in San Francisco crime data, providing insights into how different types of crimes are distributed across the city and how they've changed over time. The data comes from the San Francisco Police Department's incident reports, which provide a comprehensive view of reported crimes in the city.
 
@@ -16,6 +17,7 @@ The dataset includes reported incidents from 2003 to 2015, containing informatio
 - Description
 - Resolution status
 
+<a id="key-findings"></a>
 ## Key Findings
 
 ### 1. Temporal Patterns in Crime
@@ -55,6 +57,7 @@ Key observations from the category analysis:
 
 3. **Category Analysis**: Some crime categories are more prevalent than others, and understanding these patterns can help in resource allocation and prevention strategies.
 
+<a id="methodology"></a>
 ## Methodology
 This analysis was conducted using Python, with the following key libraries:
 - Pandas for data manipulation and analysis
@@ -68,6 +71,7 @@ The visualizations were created with a focus on:
 - Consistent styling and formatting
 - Informative labels and legends
 
+<a id="references"></a>
 ## References
 1. San Francisco Police Department Crime Data
 2. [San Francisco Open Data Portal](https://data.sfgov.org/)

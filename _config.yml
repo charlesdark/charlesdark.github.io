@@ -1,3 +1,23 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: SF Crime Data Analysis
+description: A data-driven exploration of crime patterns in San Francisco
+baseurl: ""
+url: "https://charlesdark.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - data/*.csv
+  - scripts/
+  - requirements.txt
